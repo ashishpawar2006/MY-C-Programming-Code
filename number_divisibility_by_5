@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter the Number to check divisible by 5/11 :-\n");
+    scanf("%d",&num);
+    if(num % 5 ==0){
+        printf("%d entered number is divisible by 5 ",num);
+    }
+    else if(num % 11 ==0){
+        printf("%d entered number is divisible by 11 ",num);
+    }
+    else{
+        printf("%d entered number is not divisible by 11 ",num);
+    }
+    return 0;
+}
